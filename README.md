@@ -8,4 +8,4 @@ usage:
 
 <!-- Bootstrap RTL Theme -->
 <link rel="stylesheet" href="bootstrap-rtl.css">
-'''
+
