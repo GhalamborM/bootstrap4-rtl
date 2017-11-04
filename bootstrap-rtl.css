@@ -1,5 +1,5 @@
 ﻿/*******************************************************************************
- *              bootstrap-rtl (version 4.0.0 alpha6)
+ *              bootstrap-rtl (version 4.0.0 beta2)
  *      Author: Morteza Ghalambor
  *  Created on: september 7,2016
  *     Project: bootstrap-rtl
@@ -8,6 +8,7 @@
 
 body {
     direction: rtl;
+    text-align:right
 }
 
 dd {
