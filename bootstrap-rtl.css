@@ -917,18 +917,6 @@ dl.row > dd + dt {
     float: left;
 }
 
-.input-group-addon:not(:last-child) {
-    border-right: 1px solid rgba(0,0,0,.15);
-    border-left: 0;
-}
-
-.form-control + .input-group-addon:not(:first-child) {
-    border-left-width: medium;
-    border-right: 0;
-}
-
-
-
 .input-group-btn > .btn + .btn {
     margin-right: -1px;
 }
