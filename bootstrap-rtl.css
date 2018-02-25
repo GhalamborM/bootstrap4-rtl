@@ -973,6 +973,10 @@ dl.row > dd + dt {
   .navbar-toggleable-md .navbar-nav .nav-item {
     margin-right: 0;
   }
+
+  .navbar-collapse .navbar-nav {
+    padding-right: 1rem;
+  }
 }
 
 .card-link + .card-link {
