@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
  *              bootstrap-rtl (version 4.0.0)
  *      Author: Morteza Ghalambor
  *  Created on: Jan  20,2018
@@ -935,6 +935,14 @@ dl.row > dd + dt {
 
 .custom-controls-stacked .custom-control + .custom-control {
   margin-right: 0;
+}
+
+.custom-control-label:before {
+  right: 0;
+}
+
+.custom-control-label:after {
+  right: 0;
 }
 
 .custom-select {
