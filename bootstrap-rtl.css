@@ -1,14 +1,13 @@
 ﻿/*******************************************************************************
- *              bootstrap-rtl (version 4.0.0 beta2)
+ *              bootstrap-rtl (version 4.1.0)
  *      Author: Morteza Ghalambor
- *  Created on: september 7,2016
+ *  Created on: April  25,2018
  *     Project: bootstrap-rtl
  *   Copyright: GPL
  *******************************************************************************/
-
 body {
     direction: rtl;
-    text-align: right
+    text-align: right;
 }
 
 dd {
@@ -56,7 +55,6 @@ th {
 dl.row > dd + dt {
     clear: right;
 }
-
 
 .pull-0 {
     left: auto;
@@ -207,7 +205,6 @@ dl.row > dd + dt {
 }
 
 @media (min-width: 544px) {
-
     .pull-sm-0 {
         left: auto;
     }
@@ -362,7 +359,6 @@ dl.row > dd + dt {
 }
 
 @media (min-width: 768px) {
-
     .pull-md-0 {
         left: auto;
     }
@@ -517,7 +513,6 @@ dl.row > dd + dt {
 }
 
 @media (min-width: 992px) {
-
     .pull-lg-0 {
         left: auto;
     }
@@ -672,7 +667,6 @@ dl.row > dd + dt {
 }
 
 @media (min-width: 1200px) {
-
     .pull-xl-0 {
         left: auto;
     }
@@ -839,7 +833,7 @@ dl.row > dd + dt {
 }
 
     .form-check-inline + .form-check-inline {
-        margin-right: .75rem;
+        margin-right: 0.75rem;
     }
 
 .form-control-feedback {
@@ -873,8 +867,6 @@ dl.row > dd + dt {
     margin: 0.5rem 0;
 }
 
-
-
 .btn-group .btn + .btn,
 .btn-group .btn + .btn-group,
 .btn-group .btn-group + .btn,
@@ -885,8 +877,6 @@ dl.row > dd + dt {
 .btn-toolbar {
     margin-right: -0.5rem;
 }
-
-
 
     .btn-toolbar > .btn,
     .btn-toolbar > .btn-group,
@@ -906,7 +896,6 @@ dl.row > dd + dt {
     margin-right: 0;
 }
 
-
 .btn-group-vertical > .btn + .btn,
 .btn-group-vertical > .btn + .btn-group,
 .btn-group-vertical > .btn-group + .btn,
@@ -917,7 +906,6 @@ dl.row > dd + dt {
 .input-group .form-control {
     float: left;
 }
-
 
 .input-group-btn > .btn + .btn {
     margin-right: -1px;
@@ -949,6 +937,14 @@ dl.row > dd + dt {
     margin-right: 0;
 }
 
+.custom-control-label:before {
+    right: 0;
+}
+
+.custom-control-label:after {
+    right: 0;
+}
+
 .custom-select {
     padding-left: 0.75rem \9;
 }
@@ -957,13 +953,9 @@ dl.row > dd + dt {
     padding-right: 0;
 }
 
-
-
 .nav-tabs .nav-item + .nav-item {
     margin-right: 0.2rem;
 }
-
-
 
 .nav-pills .nav-item + .nav-item {
     margin-right: 0.2rem;
@@ -971,20 +963,6 @@ dl.row > dd + dt {
 
 .nav-stacked .nav-item + .nav-item {
     margin-right: 0;
-}
-
-
-
-
-
-
-
-.navbar-nav .nav-link + .nav-link {
-    margin-right: 1rem;
-}
-
-.navbar-nav .nav-item + .nav-item {
-    margin-right: 1rem;
 }
 
 @media (max-width: 543px) {
@@ -1002,6 +980,10 @@ dl.row > dd + dt {
 @media (max-width: 991px) {
     .navbar-toggleable-md .navbar-nav .nav-item {
         margin-right: 0;
+    }
+
+    .navbar-collapse .navbar-nav {
+        padding-right: 1rem;
     }
 }
 
@@ -1142,16 +1124,13 @@ dl.row > dd + dt {
 .carousel-inner > .active.right {
     right: 100%;
 }
-
 /*.carousel-control {
   right: 0;
 }
-
 .carousel-control.right {
   left: 0;
   right: auto;
 }*/
-
 .carousel-control .icon-prev {
     right: 50%;
     margin-right: -10px;
