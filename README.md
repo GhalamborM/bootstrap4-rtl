@@ -1,5 +1,5 @@
-# bootstrap4-rtl
-Bootstrap 4 RTL Theme
+# Bootstrap4-rtl
+Bootstrap 4 RTL Theme (Optimized version)
 
 usage:
 ```html
