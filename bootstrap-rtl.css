@@ -921,6 +921,38 @@ dl.row > dd + dt {
     margin-right: -1px;
 }
 
+.input-group > :not(:first-child).form-control,
+.input-group > :not(:first-child).custom-select {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group > .input-group-prepend > .btn, .input-group > .input-group-prepend > .input-group-text, .input-group > :not(:last-child).input-group-append > .btn, .input-group > :not(:last-child).input-group-append > .input-group-text, .input-group > :last-child.input-group-append > :not(:last-child):not(.dropdown-toggle).btn, .input-group > :last-child.input-group-append > :not(:last-child).input-group-text {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left-width: 0px;
+}
+
+
+.input-group > :not(:last-child).form-control, .input-group > :not(:last-child).custom-select {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > :not(:first-child).input-group-prepend > .btn, .input-group > :not(:first-child).input-group-prepend > .input-group-text, .input-group > :first-child.input-group-prepend > :not(:first-child).btn, .input-group > :first-child.input-group-prepend > :not(:first-child).input-group-text {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-width: 0px;
+}
+
 .custom-control {
     padding-right: 1.5rem;
 }
