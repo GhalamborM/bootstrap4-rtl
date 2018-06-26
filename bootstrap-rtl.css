@@ -1167,3 +1167,8 @@ dl.row > dd + dt {
         right: 20%;
     }
 }
+
+
+.btn-group{
+	direction:ltr
+}
