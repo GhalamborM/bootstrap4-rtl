@@ -1201,6 +1201,6 @@ dl.row > dd + dt {
 }
 
 
-.btn-group{
+.btn-group,ul.pagination{
 	direction:ltr
 }
