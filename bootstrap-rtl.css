@@ -1204,3 +1204,8 @@ dl.row > dd + dt {
 .btn-group{
 	direction:ltr
 }
+
+
+.show > .dropdown-menu {
+  transform: translate3d(-30px, 33px, 0px) !important;;
+}
