@@ -1,5 +1,5 @@
 ﻿/*******************************************************************************
- *              bootstrap-rtl (version 4.1.0)
+ *              bootstrap-rtl (version 4.1.3)
  *      Author: Morteza Ghalambor
  *  Created on: April  25,2018
  *     Project: bootstrap-rtl
@@ -161,46 +161,57 @@ dl.row > dd + dt {
 }
 
 .offset-1 {
+    margin-left: 0;
     margin-right: 8.33333%;
 }
 
 .offset-2 {
+    margin-left: 0;
     margin-right: 16.66667%;
 }
 
 .offset-3 {
+    margin-left: 0;
     margin-right: 25%;
 }
 
 .offset-4 {
+    margin-left: 0;
     margin-right: 33.33333%;
 }
 
 .offset-5 {
+    margin-left: 0;
     margin-right: 41.66667%;
 }
 
 .offset-6 {
+    margin-left: 0;
     margin-right: 50%;
 }
 
 .offset-7 {
+    margin-left: 0;
     margin-right: 58.33333%;
 }
 
 .offset-8 {
+    margin-left: 0;
     margin-right: 66.66667%;
 }
 
 .offset-9 {
+    margin-left: 0;
     margin-right: 75%;
 }
 
 .offset-10 {
+    margin-left: 0;
     margin-right: 83.33333%;
 }
 
 .offset-11 {
+    margin-left: 0;
     margin-right: 91.66667%;
 }
 
@@ -314,46 +325,57 @@ dl.row > dd + dt {
     }
 
     .offset-sm-1 {
+        margin-left: 0;
         margin-right: 8.33333%;
     }
 
     .offset-sm-2 {
+        margin-left: 0;
         margin-right: 16.66667%;
     }
 
     .offset-sm-3 {
+        margin-left: 0;
         margin-right: 25%;
     }
 
     .offset-sm-4 {
+        margin-left: 0;
         margin-right: 33.33333%;
     }
 
     .offset-sm-5 {
+        margin-left: 0;
         margin-right: 41.66667%;
     }
 
     .offset-sm-6 {
+        margin-left: 0;
         margin-right: 50%;
     }
 
     .offset-sm-7 {
+        margin-left: 0;
         margin-right: 58.33333%;
     }
 
     .offset-sm-8 {
+        margin-left: 0;
         margin-right: 66.66667%;
     }
 
     .offset-sm-9 {
+        margin-left: 0;
         margin-right: 75%;
     }
 
     .offset-sm-10 {
+        margin-left: 0;
         margin-right: 83.33333%;
     }
 
     .offset-sm-11 {
+        margin-left: 0;
         margin-right: 91.66667%;
     }
 }
@@ -464,50 +486,62 @@ dl.row > dd + dt {
     }
 
     .offset-md-0 {
+        margin-left: 0;
         margin-right: 0%;
     }
 
     .offset-md-1 {
+        margin-left: 0;
         margin-right: 8.33333%;
     }
 
     .offset-md-2 {
+        margin-left: 0;
         margin-right: 16.66667%;
     }
 
     .offset-md-3 {
+        margin-left: 0;
         margin-right: 25%;
     }
 
     .offset-md-4 {
+        margin-left: 0;
         margin-right: 33.33333%;
     }
 
     .offset-md-5 {
+        margin-left: 0;
         margin-right: 41.66667%;
     }
 
     .offset-md-6 {
+        margin-left: 0;
         margin-right: 50%;
     }
 
     .offset-md-7 {
+        margin-left: 0;
         margin-right: 58.33333%;
     }
 
     .offset-md-8 {
+        margin-left: 0;
         margin-right: 66.66667%;
     }
 
     .offset-md-9 {
+        margin-left: 0;
         margin-right: 75%;
     }
 
     .offset-md-10 {
+        margin-left: 0;
         margin-right: 83.33333%;
     }
 
     .offset-md-11 {
+        margin-left: 0;
         margin-right: 91.66667%;
     }
 }
@@ -618,50 +652,62 @@ dl.row > dd + dt {
     }
 
     .offset-lg-0 {
+        margin-left: 0;
         margin-right: 0%;
     }
 
     .offset-lg-1 {
+        margin-left: 0;
         margin-right: 8.33333%;
     }
 
     .offset-lg-2 {
+        margin-left: 0;
         margin-right: 16.66667%;
     }
 
     .offset-lg-3 {
+        margin-left: 0;
         margin-right: 25%;
     }
 
     .offset-lg-4 {
+        margin-left: 0;
         margin-right: 33.33333%;
     }
 
     .offset-lg-5 {
+        margin-left: 0;
         margin-right: 41.66667%;
     }
 
     .offset-lg-6 {
+        margin-left: 0;
         margin-right: 50%;
     }
 
     .offset-lg-7 {
+        margin-left: 0;
         margin-right: 58.33333%;
     }
 
     .offset-lg-8 {
+        margin-left: 0;
         margin-right: 66.66667%;
     }
 
     .offset-lg-9 {
+        margin-left: 0;
         margin-right: 75%;
     }
 
     .offset-lg-10 {
+        margin-left: 0;
         margin-right: 83.33333%;
     }
 
     .offset-lg-11 {
+        margin-left: 0;
         margin-right: 91.66667%;
     }
 }
@@ -776,46 +822,57 @@ dl.row > dd + dt {
     }
 
     .offset-xl-1 {
+        margin-left: 0;
         margin-right: 8.33333%;
     }
 
     .offset-xl-2 {
+        margin-left: 0;
         margin-right: 16.66667%;
     }
 
     .offset-xl-3 {
+        margin-left: 0;
         margin-right: 25%;
     }
 
     .offset-xl-4 {
+        margin-left: 0;
         margin-right: 33.33333%;
     }
 
     .offset-xl-5 {
+        margin-left: 0;
         margin-right: 41.66667%;
     }
 
     .offset-xl-6 {
+        margin-left: 0;
         margin-right: 50%;
     }
 
     .offset-xl-7 {
+        margin-left: 0;
         margin-right: 58.33333%;
     }
 
     .offset-xl-8 {
+        margin-left: 0;
         margin-right: 66.66667%;
     }
 
     .offset-xl-9 {
+        margin-left: 0;
         margin-right: 75%;
     }
 
     .offset-xl-10 {
+        margin-left: 0;
         margin-right: 83.33333%;
     }
 
     .offset-xl-11 {
+        margin-left: 0;
         margin-right: 91.66667%;
     }
 }
@@ -1156,34 +1213,7 @@ dl.row > dd + dt {
 .carousel-inner > .active.right {
     right: 100%;
 }
-/*.carousel-control {
-  right: 0;
-}
-.carousel-control.right {
-  left: 0;
-  right: auto;
-}*/
-.carousel-control .icon-prev {
-    right: 50%;
-    margin-right: -10px;
-}
 
-.carousel-control .icon-next {
-    left: 50%;
-    margin-left: -10px;
-}
-
-.carousel-indicators {
-    right: 50%;
-    padding-right: 0;
-    margin-right: -30%;
-}
-
-.carousel-caption {
-    left: 15%;
-    right: 15%;
-    z-index: 10;
-}
 
 @media (min-width: 544px) {
     .carousel-control .icon-prev {
@@ -1198,9 +1228,4 @@ dl.row > dd + dt {
         left: 20%;
         right: 20%;
     }
-}
-
-
-.btn-group,ul.pagination{
-	direction:ltr
 }
