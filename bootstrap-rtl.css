@@ -1088,6 +1088,10 @@ dl.row > dd + dt {
     float: right;
 }
 
+.breadcrumb-item+.breadcrumb-item::before {
+    margin-left: 0.5rem;
+}
+
 .pagination {
     padding-right: 0;
 }
