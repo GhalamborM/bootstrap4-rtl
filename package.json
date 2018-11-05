@@ -1,0 +1,23 @@
+{
+  "name": "@ghalamborm/bootstrap4-rtl",
+  "version": "1.3.2",
+  "description": "boostrap rtl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhalamborM/bootstrap4-rtl.git"
+  },
+  "keywords": [
+    "bootstrap-rtl",
+    "bootstrap4-rtl"
+  ],
+  "author": "morteza ghalambor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GhalamborM/bootstrap4-rtl/issues"
+  },
+  "homepage": "https://github.com/GhalamborM/bootstrap4-rtl#readme"
+}
