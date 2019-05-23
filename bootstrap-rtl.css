@@ -22,10 +22,6 @@ caption {
     text-align: right;
 }
 
-th {
-    text-align: right;
-}
-
 .list-unstyled {
     padding-right: 0;
 }
@@ -37,19 +33,6 @@ th {
 .list-inline-item:not(:last-child) {
     margin-right: 0;
     margin-left: 5px;
-}
-
-.blockquote {
-    border-left: none;
-    border-right: 0.25rem solid #eceeef;
-}
-
-.blockquote-reverse {
-    padding-left: 1rem;
-    padding-right: 0;
-    text-align: left;
-    border-left: 0.25rem solid #eceeef;
-    border-right: 0;
 }
 
 dl.row > dd + dt {
@@ -897,14 +880,11 @@ dl.row > dd + dt {
     padding-right: 0;
 }
 
-
 .was-validated .form-control:valid, .form-control.is-valid {
     padding-right: 0;
     padding-left: calc(1.5em + 0.75rem);
     background-position: center left calc(0.375em + 0.1875rem);
 }
-
-
 
 .was-validated textarea.form-control:valid, textarea.form-control.is-valid {
     padding-right: 0;
@@ -922,8 +902,6 @@ dl.row > dd + dt {
     background-position: center left calc(0.375em + 0.1875rem);
 }
 
-
-
 .was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
     padding-right: 0;
     padding-left: calc(1.5em + 0.75rem);
@@ -933,8 +911,6 @@ dl.row > dd + dt {
     padding-right: 0;
     padding-left: calc((1em + 0.75rem) * 3 / 4 + 1.75rem);
 }
-
-
 
 .dropdown-toggle::after {
     margin-right: 0.3em;
@@ -1021,7 +997,6 @@ dl.row > dd + dt {
     border-top-left-radius: 0px;
     border-left-width: 0px;
 }
-
 
 .input-group > :not(:last-child).form-control, .input-group > :not(:last-child).custom-select {
     border-top-right-radius: 0.25rem;
@@ -1112,12 +1087,7 @@ dl.row > dd + dt {
     border-right: 0;
 }
 
-
-
-
 @media (min-width: 576px) {
-
-
     .card-group > .card:not(:last-child) {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
@@ -1193,11 +1163,6 @@ dl.row > dd + dt {
     padding-right: 0;
 }
 
-
-
-
-
-
 .list-group-horizontal .list-group-item {
     margin-left: -1px;
     margin-right: 0;
@@ -1207,7 +1172,6 @@ dl.row > dd + dt {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         border-top-right-radius: 0.25rem;
-
         border-top-right-radius: 0.25rem;
         border-bottom-right-radius: 0.25rem;
         border-top-left-radius: 0;
@@ -1221,7 +1185,6 @@ dl.row > dd + dt {
     }
 
 @media (min-width: 576px) {
-
     .list-group-horizontal-sm .list-group-item {
         margin-left: -1px;
         margin-right: 0;
@@ -1254,7 +1217,6 @@ dl.row > dd + dt {
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
             border-top-right-radius: 0.25rem;
-
             border-top-right-radius: 0.25rem;
             border-bottom-right-radius: 0.25rem;
             border-top-left-radius: 0;
@@ -1265,7 +1227,6 @@ dl.row > dd + dt {
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0.25rem;
-
             border-top-left-radius: 0.25rem;
             border-bottom-left-radius: 0.25rem;
             border-bottom-right-radius: 0;
@@ -1318,8 +1279,6 @@ dl.row > dd + dt {
         }
 }
 
-
-
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
 .embed-responsive embed,
@@ -1336,100 +1295,14 @@ dl.row > dd + dt {
     text-align: right;
 }
 
-    .tooltip.tooltip-top .tooltip-arrow,
-    .tooltip.bs-tether-element-attached-bottom .tooltip-arrow {
-        right: 50%;
-        margin-right: -5px;
-    }
-
-    .tooltip.tooltip-bottom .tooltip-arrow,
-    .tooltip.bs-tether-element-attached-top .tooltip-arrow {
-        right: 50%;
-        margin-right: -5px;
-    }
-
 .popover {
+    left: auto;
     right: 0;
     text-align: right;
 }
 
-    .popover.popover-top .popover-arrow,
-    .popover.bs-tether-element-attached-bottom .popover-arrow {
-        right: 50%;
-        margin-right: -11px;
-    }
-
-        .popover.popover-top .popover-arrow::after,
-        .popover.bs-tether-element-attached-bottom .popover-arrow::after {
-            margin-right: -10px;
-        }
-
-    .popover.popover-bottom .popover-arrow,
-    .popover.bs-tether-element-attached-top .popover-arrow {
-        right: 50%;
-        margin-right: -11px;
-    }
-
-        .popover.popover-bottom .popover-arrow::after,
-        .popover.bs-tether-element-attached-top .popover-arrow::after {
-            margin-right: -10px;
-        }
-
-@media all and (transform-3d), (-webkit-transform-3d) {
-    .carousel-inner > .carousel-item.next,
-    .carousel-inner > .carousel-item.active.right {
-        right: 0;
-    }
-
-    .carousel-inner > .carousel-item.prev,
-    .carousel-inner > .carousel-item.active.left {
-        right: 0;
-    }
-
-        .carousel-inner > .carousel-item.next.left,
-        .carousel-inner > .carousel-item.prev.right,
-        .carousel-inner > .carousel-item.active {
-            right: 0;
-        }
-}
-
-.carousel-inner > .active {
-    right: 0;
-}
-
-.carousel-inner > .next {
-    right: 100%;
-}
-
-.carousel-inner > .prev {
-    right: -100%;
-}
-
-    .carousel-inner > .next.left,
-    .carousel-inner > .prev.right {
-        right: 0;
-    }
-
-.carousel-inner > .active.left {
-    right: -100%;
-}
-
-.carousel-inner > .active.right {
-    right: 100%;
-}
-
-
-@media (min-width: 544px) {
-    .carousel-control .icon-prev {
-        margin-right: -15px;
-    }
-
-    .carousel-control .icon-next {
-        margin-left: -15px;
-    }
-
-    .carousel-caption {
-        left: 20%;
-        right: 20%;
-    }
+.carousel-item {
+    float: right;
+    margin-right: 0;
+    margin-left: -100%;
 }
