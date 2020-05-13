@@ -1,5 +1,5 @@
 ﻿/*******************************************************************************
- *              bootstrap-rtl (version 4.3.1)
+ *              bootstrap-rtl (version 4.5.0)
  *      Author: Morteza Ghalambor
  *  Created on: February  2,2019
  *     Project: bootstrap-rtl
@@ -8,6 +8,10 @@
 body {
     direction: rtl;
     text-align: right;
+}
+
+legend {
+    text-align: right
 }
 
 dd {
@@ -1063,15 +1067,6 @@ dl.row > dd + dt {
     padding-right: 2.25rem;
 }
 
-    .custom-switch .custom-control-label::before {
-        left: auto;
-        right: -2.25rem;
-    }
-
-    .custom-switch .custom-control-label::after {
-        left: auto;
-        right: calc(-2.25rem + 2px);
-    }
 
 .custom-select {
     padding: 0.375rem 0.75rem 0.375rem 1.75rem;
@@ -1089,11 +1084,7 @@ custom-select-sm {
 
 .card-link + .card-link {
     margin-right: 1.25rem;
-    margin-right: auto;
-}
-
-.card-blockquote {
-    border-right: 0;
+    margin-left: auto;
 }
 
 @media (min-width: 576px) {
