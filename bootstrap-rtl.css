@@ -1,9 +1,14 @@
 ﻿/*******************************************************************************
- *              bootstrap-rtl (version 4.5.0)
- *      Author: Morteza Ghalambor
- *  Created on: February  2,2019
- *     Project: bootstrap-rtl
- *   Copyright: MIT
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
+ * Author: Morteza Ghalambor
+ * Created on: January  23,2021
+ * Project: bootstrap-rtl
+ * Copyright: MIT
+
  *******************************************************************************/
 body {
     direction: rtl;
@@ -864,6 +869,12 @@ dl.row > dd + dt {
     }
 }
 
+.form-row > .col > .valid-tooltip,
+.form-row > [class*="col-"] > .valid-tooltip {
+    left: 0;
+    right: 5px;
+}
+
 .form-check-label {
     padding-right: 1.25rem;
 }
@@ -963,6 +974,7 @@ dl.row > dd + dt {
     border-bottom-left-radius: 0.25rem;
 }
 
+
 .input-group > .form-control + .form-control,
 .input-group > .form-control + .custom-select,
 .input-group > .form-control + .custom-file,
@@ -979,13 +991,8 @@ dl.row > dd + dt {
     margin-right: -1px;
 }
 
-.input-group > .form-control:not(:last-child),
-.input-group > .custom-select:not(:last-child) {
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
+
+
 
 .input-group > .form-control:not(:first-child),
 .input-group > .custom-select:not(:first-child) {
@@ -995,15 +1002,30 @@ dl.row > dd + dt {
     border-bottom-right-radius: 0;
 }
 
+
+
+
+
 .input-group > .custom-file:not(:last-child) .custom-file-label,
-.input-group > .custom-file:not(:last-child) .custom-file-label::after {
+.input-group > .custom-file:not(:first-child) .custom-file-label {
     border-top-left-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.input-group > .custom-file:not(:first-child) .custom-file-label {
+.input-group:not(.has-validation) > .form-control:not(:last-child),
+.input-group:not(.has-validation) > .custom-select:not(:last-child),
+.input-group:not(.has-validation) > .custom-file:not(:last-child) .custom-file-label::after {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-group.has-validation > .form-control:nth-last-child(n + 3),
+.input-group.has-validation > .custom-select:nth-last-child(n + 3),
+.input-group.has-validation > .custom-file:nth-last-child(n + 3) .custom-file-label::after {
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     border-top-left-radius: 0;
@@ -1018,8 +1040,10 @@ dl.row > dd + dt {
 
 .input-group > .input-group-prepend > .btn,
 .input-group > .input-group-prepend > .input-group-text,
-.input-group > .input-group-append:not(:last-child) > .btn,
-.input-group > .input-group-append:not(:last-child) > .input-group-text,
+.input-group:not(.has-validation) > .input-group-append:not(:last-child) > .btn,
+.input-group:not(.has-validation) > .input-group-append:not(:last-child) > .input-group-text,
+.input-group.has-validation > .input-group-append:nth-last-child(n + 3) > .btn,
+.input-group.has-validation > .input-group-append:nth-last-child(n + 3) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
     border-top-right-radius: 0.25rem;
@@ -1127,6 +1151,9 @@ custom-select-sm {
         }
 }
 
+.breadcrumb-item + .breadcrumb-item::before {
+}
+
 .breadcrumb-item + .breadcrumb-item {
     padding-left: 0;
     padding-right: 0.5rem;
@@ -1135,6 +1162,9 @@ custom-select-sm {
     .breadcrumb-item + .breadcrumb-item::before {
         padding-right: 0;
         padding-left: 0.5rem;
+        float: right;
+        color: #6c757d;
+        content: "\\";
     }
 
 .pagination {
